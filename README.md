@@ -6,12 +6,9 @@
 
 ## Features
 
-## Features
-
 ![selahx logo](https://github.com/Haabiy/selahx/blob/main/Asset/selahx.png)
 
-- Launch a server and clients with minimal setup  
-- Automatic reverse SSH tunneling  
+- Remotely access files on a local machine from another device
 - Transfer files from EC2 to local machine  
 - Lightweight and dependency-managed with Poetry  
 
