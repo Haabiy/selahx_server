@@ -52,7 +52,7 @@ Options:
 * `--user` — ubuntu is the user in this case `ssh -i "key.pem" ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com`
 * `--host` — starts from @ i.e `ec2-xx-xx-xx-xx.compute-1.amazonaws.com`
 * `--dest` — destination
-* `--~/Downloads/test` — set your path
+* `~/Downloads/test` — set your path
 
 
 ## Example Workflow
@@ -76,5 +76,3 @@ Once connected, a reverse SSH tunnel is automatically established.
 
 * Python 3.8+
 * Dependencies are managed via Poetry (see `pyproject.toml`)
-
----
