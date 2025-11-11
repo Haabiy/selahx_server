@@ -38,7 +38,7 @@ Options:
 
 ---
 
-### Transfer files EC2 to Local
+### Transfer files from EC2 to Local
 
 Start saving files.
 
@@ -49,10 +49,10 @@ selahx save --key-file key.pem --user ubuntu --host ec2-xx-xx-xx-xx.compute-1.am
 Options:
 
 * `--key-file` — Path to the SSH private key
-* `--user` — ubuntu is the user in this case `ssh -i "key.pem" ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com`
+* `--user` — `ubuntu` is the user in this case `ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com`
 * `--host` — starts from @ i.e `ec2-xx-xx-xx-xx.compute-1.amazonaws.com`
 * `--dest` — destination
-* `~/Downloads/test` — set your path
+* `~/Downloads/test` — set your destination path
 
 
 ## Example Workflow
