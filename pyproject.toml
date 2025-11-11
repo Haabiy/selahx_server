@@ -10,7 +10,7 @@ repository = "https://github.com/Haabiy/selahx"
 documentation = "https://github.com/Haabiy/selahx#readme"
 packages = [{ include = "selahx" }]
 include = [
-    { path = "Assets/selahx.png", format = "file" }
+    "Assets/selahx.png"
 ]
 
 [tool.poetry.dependencies]
