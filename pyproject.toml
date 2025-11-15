@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "selahx-server"
+name = "selahx_server"
 version = "0.1.0"
 description = "Remote Access Tool — a fast, lightweight CLI experience (for educational purposes only)."
 authors = ["Abiy <abiy.dema@gmail.com>"]
@@ -8,7 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/Haabiy/selahx-server"
 repository = "https://github.com/Haabiy/selahx-server"
 documentation = "https://github.com/Haabiy/selahx-server#readme"
-packages = [{ include = "selahx-server" }]
+packages = [{ include = "selahx" }]
 include = [
     "assets/help.png"
 ]
@@ -39,7 +39,7 @@ argparse = ">=1.4.0,<2.0.0"
 typer = ">=0.20.0,<0.21.0"
 
 [tool.poetry.scripts]
-selahx-server = "selahx.cli:app"
+slx = "selahx.cli:app"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

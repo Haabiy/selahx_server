@@ -7,7 +7,7 @@ app = typer.Typer(
 )
 
 # Server command
-@app.command("server", help="Start the selahx server.")
+@app.command("slx", help="Start the selahx server.")
 def run_server(
     host: str = typer.Option("0.0.0.0", "--host", help="Host for the server (default: listen on all interfaces)"),
     key_file: str = typer.Option(..., "--key-file", help="Path to the temporary SSH private key (e.g. ./key.pem)"),

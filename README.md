@@ -1,11 +1,11 @@
-# selahx-server
+# selahx_server
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 - Remote Access Tool — Fast and lightweight CLI experience.
 
 - Designed for use with the selahx-client package (https://pypi.org/project/selahx-client/), this enables remote access and management of files and have some control over a local machine from another device.
 
-- Run https://pypi.org/project/selahx-server/ on the target machine, and https://pypi.org/project/selahx-client/ on the machine you want to control it from. Follow each package’s guidelines for how to run it.
+- Run https://pypi.org/project/selahx_server/ on the target machine, and https://pypi.org/project/selahx-client/ on the machine you want to control it from. Follow each package’s guidelines for how to run it.
 
 ---
 
@@ -20,10 +20,10 @@ overview: https://pypi.org/project/selahx-client/
 ### Help
 
 ```bash
-selahx-server --help
+slx --help
 ````
 
-![features](https://raw.githubusercontent.com/Haabiy/selahx-server/main/Assets/help.png)
+![features](https://raw.githubusercontent.com/Haabiy/selahx_server/assets/help.png)
 
 ---
 
@@ -32,7 +32,7 @@ selahx-server --help
 Start the server on a specific host and port:
 
 ```bash
-selahx-server --key-file key.pem --port 1221 --ssh-host ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com
+slx --key-file key.pem --port 1221 --ssh-host ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com
 ````
 
 **Options:**
@@ -48,7 +48,7 @@ selahx-server --key-file key.pem --port 1221 --ssh-host ubuntu@ec2-xx-xx-xx-xx.c
 1. Launch the server on your EC2 instance:
 
 ```bash
-selahx-server --key-file key.pem --port 1221 --ssh-host ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com
+slx --key-file key.pem --port 1221 --ssh-host ubuntu@ec2-xx-xx-xx-xx.compute-1.amazonaws.com
 ```
 
 ## Requirements
