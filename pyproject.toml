@@ -1,16 +1,16 @@
 [tool.poetry]
-name = "selahx"
+name = "selahx-server"
 version = "0.1.0"
-description = “Remote Access Tool — a fast, lightweight CLI experience (for educational purposes only).”
+description = "Remote Access Tool — a fast, lightweight CLI experience (for educational purposes only)."
 authors = ["Abiy <abiy.dema@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/Haabiy/selahx-server"
 repository = "https://github.com/Haabiy/selahx-server"
 documentation = "https://github.com/Haabiy/selahx-server#readme"
-packages = [{ include = "selahx" }]
+packages = [{ include = "selahx-server" }]
 include = [
-    "Assets/selahx.png"
+    "assets/help.png"
 ]
 
 [tool.poetry.dependencies]
