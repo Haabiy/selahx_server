@@ -23,7 +23,7 @@ overview: https://pypi.org/project/selahx-client/
 slx --help
 ````
 
-![features](https://raw.githubusercontent.com/Haabiy/selahx_server/assets/help.png)
+![features](https://raw.githubusercontent.com/Haabiy/selahx_server/selahx/assets/help.png)
 
 ---
 
