@@ -5,7 +5,6 @@ description = "Remote Access Tool — a fast, lightweight CLI experience (for ed
 authors = ["Abiy <abiy.dema@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/Haabiy/selahx_server"
 repository = "https://github.com/Haabiy/selahx_server"
 documentation = "https://github.com/Haabiy/selahx_server#readme"
 packages = [{ include = "selahx" }]
