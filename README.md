@@ -48,7 +48,7 @@ slx --key-file key.pem --port 1221 --ssh-host ubuntu@ec2-xx-xx-xx-xx.compute-1.a
 2. Run the client side via: https://pypi.org/project/selahx_client
 
 
-##### `NB: Make sure the port you assigned on the target machine is open in your EC2 instance’s inbound and outbound rules, and ensure SSH is allowed in the security group.`
+##### `NB: Ensure the port you configured on the target machine is open in your EC2 instance’s inbound and outbound rules, along with SSH for remote access.`
 
 
 ## Requirements
